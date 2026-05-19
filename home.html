@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>About me</title>
 </head>
 <body>
     <header>
-        <h1>Happiness Mhlongo</h1>
+        <img src="images/logo.png" alt="" width="50px"  height="50px">
         <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+            <ul id="nav">
+                <li><a href="home.html" class="active">Home</a></li>
                 <li><a href="about.html">About me</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -18,34 +19,48 @@
     </header>
 
     <main>
-        <section>
+        <section id="video">
+            <video width="250" height="250" controls>
+                <source src="videos/video.mp4" type="video/mp4">
+                Your browser does not support the video
+            </video>
 
         </section>
         
         <section>
-            <h1>Happiness Mhlongo</h1>
-              <p>
-                I am a passionate developer who builds full-stack web applications using MongoDB <br>
-                Express, React and Node.js. I focus on creating responsive, user-friendly and <br>
-                efficient digital solutions.
+            <h1 id="name">Happiness Mhlongo</h1>
+            <div id="bio">
+                  <p>
+                     I am a passionate developer who builds full-stack web applications using MongoDB <br>
+                     Express, React and Node.js. I focus on creating responsive, user-friendly and <br>
+                     efficient digital solutions.
               </p>
+
+              <img src="images/me.jpg
+              " alt="My image" width="200" height="200">
+
+            </div>
+            
         </section>
         
 
     </main>
 
     <footer>
-        <a href="">
-            <img src="images/instagram.jpg" alt="Instagram logo">
-        </a>
+        <div class="footer-image">
+           <a href="https://www.instagram.com/happy_lucious?igsh=MW9mcmZ5eXNtMXV4Zg==">
+             <img src="images/instagram.jpg" alt="Instagram logo">
+           </a>
 
-        <a href="">
-            <img src="images/twitter.png" alt="LinkedIn logo">
-        </a>
+           <a href="https://www.linkedin.com/in/happiness-mhlongo-76a73a178" target="_blank">
+             <img src="images/linkedin.png" alt="LinkedIn logo">
+           </a>
 
-        <a href="">
-            <img src="images/x image" alt="X logo">
-        </a>
+           <a href="https://x.com/HLicous" target="_blank">
+             <img src="images/x.jpg" alt="X logo">
+           </a>
+
+        </div>  
     </footer>
 
 </body>

@@ -67,7 +67,12 @@ nav ul{
   display: none;
   font-size: 30px;
   cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  user-select: none;
 }
+
 
 @media (max-width: 600px) {
 
@@ -84,21 +89,6 @@ nav ul{
     display: block;
   }
 }
-
-/*.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-@media(max-width: 600px){
-    #nav{
-        display: none;
-    }
-    .hamburger{
-        display: block;
-    }
-}*/
 
 #nav a{
     text-decoration: none;

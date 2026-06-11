@@ -59,7 +59,33 @@ nav ul{
 
 }
 
+#nav {
+  display: flex;
+}
+
 .hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+  #nav {
+    display: none;
+    flex-direction: column;
+  }
+
+  #nav.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/*.hamburger {
   display: none;
   font-size: 30px;
   cursor: pointer;
@@ -72,7 +98,7 @@ nav ul{
     .hamburger{
         display: block;
     }
-}
+}*/
 
 #nav a{
     text-decoration: none;
